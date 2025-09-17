@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+/* custom fonts */
+@theme{
+    --font-inter: "Inter"
+    --font-geist: "Geist"
+}
+
+/* Global style */
+
+/* global style for p tags */
+.details{
+    @apply text-sm text-[#1F2937]/70
+}
