@@ -14,5 +14,5 @@
 
 /* global style for p tags */
 .details{
-    @apply text-sm text-[#1F2937]/70
+    @apply text-[1rem] text-[#1F2937]/80
 }
