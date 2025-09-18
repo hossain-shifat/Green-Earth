@@ -4,6 +4,7 @@ import Banner from './Components/Banner/Banner'
 import Campain from './Components/Campain/Campain'
 import OurImpact from './Components/Our Impact/OurImpact'
 import PlantTree from './Components/Plant-Tree/PlantTree'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Campain/>
         <OurImpact/>
         <PlantTree/>
+        <Footer/>
     </div>
   )
 }
